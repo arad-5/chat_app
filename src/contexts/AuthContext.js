@@ -17,8 +17,8 @@ export const AuthProvider = ({ children }) => {
             setUser(user)
             setLoading(false)
             if (user) {
-                navigate("/chat")
-                console.log(user);
+                navigate('/chat')
+                console.log(user)
             }
         })
     }, [user, navigate])
